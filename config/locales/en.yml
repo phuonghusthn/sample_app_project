@@ -12,13 +12,21 @@ en:
   to_teach_web_development_with:  to teach web development with
   this_is_the_sample_app_for_the_tutorial:  This is the sample app for the tutorial.
   about: About
-  help: Help 
+  help: Help
   get_help_on_the_ruby_on_rails_tutorial_at_the: Get help on the Ruby on Rails Tutorial at the
-  rails_tutorial_help_page: Rails Tutorial help page 
+  rails_tutorial_help_page: Rails Tutorial help page
   to_get_help_on_this_sample_app,_see_the: To get help on this sample app, see the
   ruby_on_rails_tutorial_sample_app: Ruby on Rails Tutorial Sample App
-  and: and 
-  home: Home 
-  part_of_the: part of the  
+  and: and
+  home: Home
+  part_of_the: part of the
   the: The
-  
+  welcome_to_the_sample_app: Welcome to the sample app
+  sign_up_now: Sign up now !
+  by: by
+  contact: Contact
+  login: Log in
+  signup: signup
+  sign_up: Sign up
+  this_will_be_a_signup_page_for_new_users: This will be a signup page for new user
+  news: News

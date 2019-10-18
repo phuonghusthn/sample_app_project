@@ -1,24 +1,33 @@
 vi:
   hello: Xin chào
-  vi: Tiếng Việt 
-  en: Tiếng Anh 
-  sample_app: Ứng dụng mẫu 
-  this_is_the_home_page_for_the: Đây là trang chủ cho 
-  ruby_on_rails_tutorial: Hướng dẫn Ruby on Rails 
-  sample_application: ứng dụng mẫu 
-  learn_enough: Học đầy đủ 
-  family_of_tutorials,_is_a: Tất cả hướng dẫn, là một 
-  book: quyển sách 
+  vi: Tiếng Việt
+  en: Tiếng Anh
+  sample_app: Ứng dụng mẫu
+  this_is_the_home_page_for_the: Đây là trang chủ cho
+  ruby_on_rails_tutorial: Hướng dẫn Ruby on Rails
+  sample_application: ứng dụng mẫu
+  learn_enough: Học đầy đủ
+  family_of_tutorials,_is_a: Tất cả hướng dẫn, là một
+  book: quyển sách
   screencast_series: tập các screencast
-  to_teach_web_development_with: để dạy lập trình web với 
+  to_teach_web_development_with: để dạy lập trình web với
   this_is_the_sample_app_for_the_tutorial: Đây là một ứng dụng mẫu cho hướng dẫn.
-  about: Giới thiệu 
-  help: TRợ giúp 
-  get_help_on_the_ruby_on_rails_tutorial_at_the: Xem trợ giúp của Ruby on Rails tại đây 
-  rails_tutorial_help_page: Trang trợ giúp Rails Tutorials 
-  to_get_help_on_this_sample_app,_see_the: Để trợ giúp cho ứng dụng mẫu này, xem tại 
-  ruby_on_rails_tutorial_sample_app: Áp mẫu Ruby on Rails Turials 
-  and: và 
-  home: trang chủ 
-  part_of_the: phần của 
-  the: Một 
+  about: Giới thiệu
+  help: Trợ giúp
+  get_help_on_the_ruby_on_rails_tutorial_at_the: Xem trợ giúp của Ruby on Rails tại đây
+  rails_tutorial_help_page: Trang trợ giúp Rails Tutorials
+  to_get_help_on_this_sample_app,_see_the: Để trợ giúp cho ứng dụng mẫu này, xem tại
+  ruby_on_rails_tutorial_sample_app: Áp mẫu Ruby on Rails Turials
+  and: và
+  home: Trang chủ
+  part_of_the: phần của
+  the: Một
+  welcome_to_the_sample_app: Chào mừng đến với ứng dụng mẫu
+  sign_up_now: Đăng kí ngay bây giờ
+  by: bởi
+  contact: Liên lạc
+  login: Đăng nhập
+  signup: Đăng kí
+  sign_up: Đăng kí
+  this_will_be_a_signup_page_for_new_users: Đây sẽ là trang đăng kí cho những users mới
+  news: Tin tức
