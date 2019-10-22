@@ -3,6 +3,10 @@ learn_enough_tutorials: https://www.learnenough.com/
 tutorials_book: https://www.railstutorial.org/book
 screencast_tutorials: https://screencasts.railstutorial.org/
 rubyonrails_org: https://rubyonrails.org/
-rails_help: https://www.railstutorial.org/help
+rails_help: https://www.railstutorial.org/helpS
 author: http://www.michaelhartl.com/
 news_railstutorial: http://news.railstutorial.org/
+maximum_name: 50
+maximum_email: 255
+valid_email_regex: !rubyregexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+minimum_pass: 6
