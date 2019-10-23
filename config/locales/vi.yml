@@ -31,3 +31,11 @@ vi:
   sign_up: Đăng kí
   this_will_be_a_signup_page_for_new_users: Đây sẽ là trang đăng kí cho những users mới
   news: Tin tức
+  name: Tên
+  email: Email
+  password: Mật khẩu
+  password_confirmation: Nhập lại mật khẩu
+  create_my_account: Tạo tài khoản của tôi
+  confirmation:  Nhập lại Mật khẩu
+  the_form_contains: form chứa
+  not_found: Không tìm thấy

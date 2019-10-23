@@ -30,3 +30,11 @@ en:
   sign_up: Sign up
   this_will_be_a_signup_page_for_new_users: This will be a signup page for new user
   news: News
+  name: Name
+  email: Email
+  password: Password
+  password_confirmation: Password Confirmation
+  create_my_account: Create my account
+  confirmation: Confirmation
+  the_form_contains: The form contains
+  not_found: Not found
