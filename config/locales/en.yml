@@ -38,3 +38,12 @@ en:
   confirmation: Confirmation
   the_form_contains: The form contains
   not_found: Not found
+  login: Log in
+  new_user: New user?
+  invalid_email_or_password_comnination: Invalid email/password comnination
+  users: Users
+  account: Account
+  profile: Profile
+  settings: Settings
+  logout: Logout
+  not_success: Not success

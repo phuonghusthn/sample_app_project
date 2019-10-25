@@ -2,7 +2,7 @@
 <h1> <%= t "sign_up" %> </h1>
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
-    <%= form_for @user, url: signup_path do |f| %>
+    <%= form_for @user do |f| %>
       <%= render "shared/error_messages" %>
       <%= f.label t "name"  %>
       <%= f.text_field :name %>
@@ -10,9 +10,9 @@
       <%= f.email_field :email %>
       <%= f.label t "password" %>
       <%= f.password_field :password %>
-      <%= f.label t "password_confirmation", t "confirmation" %>
+      <%= f.label t "password_confirmation" %>
       <%= f.password_field :password_confirmation, class: "form-control" %>
-      <%= f.submit t "create_my_account", class: "btn btn-primary" %>
+      <%= f.submit t("create_my_account"), class: "btn btn-primary" %>
     <% end %>
   </div>
 </div>

@@ -39,3 +39,12 @@ vi:
   confirmation:  Nhập lại Mật khẩu
   the_form_contains: form chứa
   not_found: Không tìm thấy
+  login: Đăng nhập
+  new_user: Người dùng mới?
+  invalid_email_or_password_comnination:  Password hoặc email không tồn tại
+  users: Người dùng
+  account: Tài khoản
+  profile: Hồ sơ
+  settings: Cài đặt
+  logout: Đăng xuất
+  not_success: Không thành công
