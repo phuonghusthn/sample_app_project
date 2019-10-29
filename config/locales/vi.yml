@@ -50,3 +50,12 @@ vi:
   not_success: Không thành công
   remember_me_on_this_computer: Nhớ tôi vào máy này
   remember_me: Nhớ tôi
+  save_changes: Lưu lại thay đổi
+  edit_user: Sửa người dùng
+  profile_updated: Hồ sơ đã được cập nhật
+  please_log_in: Hãy đăng nhập
+  all_users: Tất cả các người dùng
+  you_sure: Bạn có chắc chắn muốn xóa?
+  user_deleted: Người dùng đã bị xóa
+  delete: Xóa
+  user_not_deleted: không xóa được user
