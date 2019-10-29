@@ -1,12 +1,17 @@
 class SessionsController < ApplicationController
+  before_action :session_params, only: :create
+
   def new; end
 
   def create
-    user = User.find_by email: params[:session][:email].downcase
-    if user &.authenticate(params[:session][:password])
-      log_in user
-      params[:session][:remember_me] == Settings.readme ? remember(user) : forget(user)
-      redirect_to user
+    if @user.authenticate params[:session][:password]
+      log_in @user
+      if params[:session][:remember_me] == Settings.readme
+        remember @user
+      else
+        forget @user
+      end
+      redirect_back_or @user
     else
       flash.now[:danger] = t "invalid_email_or_password_comnination"
       render :new
@@ -16,5 +21,15 @@ class SessionsController < ApplicationController
   def destroy
     log_out if logged_in?
     redirect_to root_url
+  end
+
+  private
+
+  def session_params
+    @user = User.find_by email: params[:session][:email].downcase
+    return if @user
+
+    flash.now[:danger] = t "invalid_email_or_password_comnination"
+    render :new
   end
 end

@@ -12,3 +12,6 @@ valid_email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 minimum_pass_length: 6
 size: 80
 readme: 1
+link_avata: http://gravatar.com/emails
+gravatar_for_user_size: 50
+user_pages: 3
