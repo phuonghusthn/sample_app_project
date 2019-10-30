@@ -59,3 +59,13 @@ vi:
   user_deleted: Người dùng đã bị xóa
   delete: Xóa
   user_not_deleted: không xóa được user
+  please_check_your_email_to_activate_your_account: Hãy check lại email của bạn
+  account_not_activated: Tài khoản chưa được kích hoạt
+  check_your_email_for_the_activation_link: Kiểm tra lại email của bạn cho link kích hoạt
+  account_activated: Tài khoản đã được kích hoạt
+  invalid_activation_link: link kích hoạt không có sẵn
+  account_activation: kích hoạt tài khoản
+  hi: xin chào
+  account_not_activated_check_your_email_for_the_activation_link: Tài khoản chưa được kích hoạt. Kiểm tra lại email của bạn cho link kích hoạt
+  welcome_to_the_sample_app_click_on_the_link_below_to_activate_your_account: Chào mừng đến với ứng dụng mẫu, click vào link kích hoạt tài khoản của bạn
+  activate: Kích hoạt

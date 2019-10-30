@@ -5,13 +5,7 @@ class SessionsController < ApplicationController
 
   def create
     if @user.authenticate params[:session][:password]
-      log_in @user
-      if params[:session][:remember_me] == Settings.readme
-        remember @user
-      else
-        forget @user
-      end
-      redirect_back_or @user
+      user_activated
     else
       flash.now[:danger] = t "invalid_email_or_password_comnination"
       render :new
@@ -31,5 +25,20 @@ class SessionsController < ApplicationController
 
     flash.now[:danger] = t "invalid_email_or_password_comnination"
     render :new
+  end
+
+  def user_activated
+    if @user.activated?
+      log_in @user
+      if params[:session][:remember_me] == Settings.readme
+        remember @user
+      else
+        forget @user
+      end
+      redirect_back_or @user
+    else
+      flash[:warning] = t "account_not_activated_check_your_email_for_the_activation_link"
+      redirect_to root_url
+    end
   end
 end

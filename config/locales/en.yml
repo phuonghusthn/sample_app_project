@@ -58,3 +58,13 @@ en:
   user_deleted: User deleted
   delete: delete
   user_not_deleted: User not delete
+  please_check_your_email_to_activate_your_account: Please check your email to activate your account
+  account_not_activated: Account not activated
+  check_your_email_for_the_activation_link: Check your email for the activation link
+  account_activated: Account activated
+  invalid_activation_link: Invalid activation link
+  account_activation: Account activation
+  hi: Hi
+  account_not_activated_check_your_email_for_the_activation_link: Account not activated. Check your email for the activation link
+  welcome_to_the_sample_app_click_on_the_link_below_to_activate_your_account: Welcome to the Sample App! Click on the link below to activate your account
+  activate: Activate
