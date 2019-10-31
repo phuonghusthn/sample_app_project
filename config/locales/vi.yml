@@ -66,6 +66,18 @@ vi:
   invalid_activation_link: link kích hoạt không có sẵn
   account_activation: kích hoạt tài khoản
   hi: xin chào
-  account_not_activated_check_your_email_for_the_activation_link: Tài khoản chưa được kích hoạt. Kiểm tra lại email của bạn cho link kích hoạt
+  account_not_activated_check_email: Tài khoản chưa được kích hoạt. Kiểm tra lại email của bạn cho link kích hoạt
   welcome_to_the_sample_app_click_on_the_link_below_to_activate_your_account: Chào mừng đến với ứng dụng mẫu, click vào link kích hoạt tài khoản của bạn
   activate: Kích hoạt
+  forgot_password: quên mật khẩu
+  submit: Gửi
+  email_sent_with_password_reset_instructions: Email được gửi với hướng dẫn đặt lại mật khẩu
+  email_address_not_found: Không tìm thấy địa chỉ email
+  password_reset: Thay đổi mật khẩu
+  to_reset_your_password_click_the_link_below: Để thay đổi lại mật khẩu của bạn nhấp vào link sau
+  this_link_will_expire_in_two_hours: Đây là là link sẽ hết hạn trong 2 giờ
+  if_you_did_not_request_your_password_to_be_reset: Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên.
+  update_password: Cập nhật mật khẩu
+  password_has_been_reset: Password đã được thay đổi
+  can_not_be_empty: Không để trống
+  password_reset_has_expired: đặt lại mật khẩu đã hết hạn
