@@ -37,7 +37,7 @@ class SessionsController < ApplicationController
       end
       redirect_back_or @user
     else
-      flash[:warning] = t "account_not_activated_check_your_email_for_the_activation_link"
+      flash[:warning] = t "account_not_activated_check_email"
       redirect_to root_url
     end
   end
