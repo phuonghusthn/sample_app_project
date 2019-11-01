@@ -81,3 +81,24 @@ vi:
   password_has_been_reset: Password đã được thay đổi
   can_not_be_empty: Không để trống
   password_reset_has_expired: đặt lại mật khẩu đã hết hạn
+  posted: Đã đăng
+  microposts: Mẫu tin
+  micropost_created: mẫu tin nhỏ đã được tạo
+  micropost_not_created: mẫu tin nhỏ chưa được tạo
+  view_my_profile: xem hồ sơ của tôi
+  compose_new_micropost: soạn mẫu tin nhỏ của bạn
+  post: Đăng
+  micropost_feed: feed mẫu tin  nhỏ
+  ago: trước
+  micropost_deleted: mẫu tin đã bị xóa
+  must_be_a_valid_image_format: Định dạng ảnh không đúng
+  should_be_less_than_5MB: phải nhỏ hơn 5MB
+  maximum_file_size_is_5MB: Tệp kích thước lớn nhất là 5MB. Hãy chọn file khác
+  not_delete_success: Không xóa thành công mẫu tin
+  micropost: Mẫu tin
+  micropost:
+    one: "%{count} mẫu"
+    other: "%{count} mẫu"
+  error:
+    one: "%{count} lỗi"
+    other: "%{count} lỗi"

@@ -80,3 +80,24 @@ en:
   can_not_be_empty: Can't be empty
   password_has_been_reset: Password has been reset
   password_reset_has_expired: Password reset has expired
+  posted: Posted
+  microposts: Microposts
+  micropost_created: Micropost created
+  micropost_not_created: Micropost not created
+  view_my_profile: view my profile
+  compose_new_micropost: compose new micropost
+  post: post
+  micropost_feed: Micropost Feed
+  ago: ago
+  micropost_deleted: Micropost deleted
+  must_be_a_valid_image_format: must be a valid image format
+  should_be_less_than_5MB: should be less than 5MB
+  maximum_file_size_is_5MB:  Maximum file size is 5MB. Please choose a smaller file.
+  not_delete_success: not delete success
+  micropost: micropost
+  micropost:
+    one: "%{count} micropost"
+    other: "%{count} microposts"
+  error:
+    one: "%{count} error"
+    other: "%{count} errors"
