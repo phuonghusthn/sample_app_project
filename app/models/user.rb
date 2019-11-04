@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   VALID_EMAIL_REGEX = Settings.valid_email_regex
   attr_accessor :remember_token, :activation_token, :reset_token
 
