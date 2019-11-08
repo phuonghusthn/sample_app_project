@@ -1,6 +1,8 @@
-$('#micropost_picture').bind('change', function() {
-  var size_in_megabytes = this.files[0].size/1024/1024;
-  if (size_in_megabytes > Settings.size_image) {
-    alert(I18n.t 'maximum_file_size_is_5MB');
-  }
+$(document).ready(function() {
+  $( '#micropost_image' ).change(function() {
+    var size_in_megabytes = this.files[0].size/1024/1024;
+    if (size_in_megabytes > 5) {
+      alert(I18n.t('maximum_file_size_is_5MB'));
+    }
+  });
 });

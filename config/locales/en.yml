@@ -101,3 +101,7 @@ en:
   error:
     one: "%{count} error"
     other: "%{count} errors"
+  following: following
+  followers: followers
+  follow: Follow
+  unfollow: Unfollow

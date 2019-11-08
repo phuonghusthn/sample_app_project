@@ -1,5 +1,12 @@
 class User < ApplicationRecord
   has_many :microposts, dependent: :destroy
+  has_many :active_relationships, class_name: Relationship.name,
+    foreign_key: :follower_id, dependent: :destroy, inverse_of: :follower
+  has_many :passive_relationships, class_name: Relationship.name,
+    foreign_key: :followed_id, dependent: :destroy, inverse_of: :followed
+  has_many :following, through: :active_relationships, source: :followed
+  has_many :followers, through: :passive_relationships, source: :follower
+
   VALID_EMAIL_REGEX = Settings.valid_email_regex
   attr_accessor :remember_token, :activation_token, :reset_token
 
@@ -66,6 +73,18 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.hour_reset.hours.ago
+  end
+
+  def follow other_user
+    following << other_user
+  end
+
+  def unfollow other_user
+    following.delete other_user
+  end
+
+  def following? other_user
+    following.include? other_user
   end
 
   private

@@ -1,0 +1,13 @@
+<% @user ||= current_user %>
+<div class="stats">
+  <%= link_to following_user_path(@user) do %>
+    <%= content_tag :strong, @user.following.size,
+      :class => "stats", :id => "following" %>
+    <%= t("following") %>
+  <% end %>
+  <%= link_to followers_user_path(@user) do %>
+    <%= content_tag :strong, @user.followers.size,
+    :class => "stats", :id => "followers" %>
+    <%= t("followers") %>
+  <% end %>
+</div>

@@ -14,11 +14,11 @@ size: 80
 readme: 1
 link_avata: http://gravatar.com/emails
 gravatar_for_user_size: 50
-user_pages: 3
+user_pages: 5
 hour_reset: 2
 maximum_micropost_length: 140
 micropost_gravatar_for: 50
-micropost_p: 2
+micropost_p: 5
 size_image: 5
 size_limit: 500
 content_type_image: ["image/jpeg", "image/gif", "image/png"]
